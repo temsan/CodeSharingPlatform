@@ -6,7 +6,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 public class CodeEntity {
-    public String code;
+    private String code;
 
     public CodeEntity(String code) {
         this.code = code;
